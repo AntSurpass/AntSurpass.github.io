@@ -5,7 +5,7 @@
   "display": "standalone",
   "background_color": "#2196f3",
   "description": "易小小的记录",
-  "theme_color": "blue",
+  "theme_color": "#fff",
   "icons": [
     {
       "src": "./logo.jpg",
