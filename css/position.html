@@ -9,7 +9,7 @@
   <link rel="manifest" href="/manifest.json">
   <link rel="apple-touch-icon" href="/logo.jpg">
     
-    <link rel="preload" href="/assets/css/0.styles.4b78aa60.css" as="style"><link rel="preload" href="/assets/js/app.1c0f0785.js" as="script"><link rel="preload" href="/assets/js/21.3f671dd6.js" as="script"><link rel="prefetch" href="/assets/js/10.2c749279.js"><link rel="prefetch" href="/assets/js/11.082bb4d2.js"><link rel="prefetch" href="/assets/js/12.a0a24bbe.js"><link rel="prefetch" href="/assets/js/13.185ae5eb.js"><link rel="prefetch" href="/assets/js/14.2e3c7bb3.js"><link rel="prefetch" href="/assets/js/15.1e6b8057.js"><link rel="prefetch" href="/assets/js/16.987481d6.js"><link rel="prefetch" href="/assets/js/17.b645bccd.js"><link rel="prefetch" href="/assets/js/18.026b6c2b.js"><link rel="prefetch" href="/assets/js/19.3c4b215b.js"><link rel="prefetch" href="/assets/js/2.bd04f0d5.js"><link rel="prefetch" href="/assets/js/20.e788c322.js"><link rel="prefetch" href="/assets/js/22.ba3c8076.js"><link rel="prefetch" href="/assets/js/23.e110b21b.js"><link rel="prefetch" href="/assets/js/24.d3e92f3b.js"><link rel="prefetch" href="/assets/js/25.0cf6faa7.js"><link rel="prefetch" href="/assets/js/26.bd6f76f8.js"><link rel="prefetch" href="/assets/js/27.d93af8f5.js"><link rel="prefetch" href="/assets/js/28.b777bb80.js"><link rel="prefetch" href="/assets/js/29.8fe24364.js"><link rel="prefetch" href="/assets/js/3.0b64f806.js"><link rel="prefetch" href="/assets/js/30.05dca703.js"><link rel="prefetch" href="/assets/js/31.a40723cd.js"><link rel="prefetch" href="/assets/js/32.0a667289.js"><link rel="prefetch" href="/assets/js/4.2c855515.js"><link rel="prefetch" href="/assets/js/5.c2d32e5b.js"><link rel="prefetch" href="/assets/js/6.c99071b6.js"><link rel="prefetch" href="/assets/js/7.fa918282.js"><link rel="prefetch" href="/assets/js/8.a881d4b4.js"><link rel="prefetch" href="/assets/js/9.739d7878.js">
+    <link rel="preload" href="/assets/css/0.styles.4b78aa60.css" as="style"><link rel="preload" href="/assets/js/app.30259b31.js" as="script"><link rel="preload" href="/assets/js/23.c8569fcf.js" as="script"><link rel="preload" href="/assets/js/4.2274387a.js" as="script"><link rel="prefetch" href="/assets/js/10.2c749279.js"><link rel="prefetch" href="/assets/js/11.082bb4d2.js"><link rel="prefetch" href="/assets/js/12.a0a24bbe.js"><link rel="prefetch" href="/assets/js/13.e23e149a.js"><link rel="prefetch" href="/assets/js/14.35ee4f7a.js"><link rel="prefetch" href="/assets/js/15.c07bc0db.js"><link rel="prefetch" href="/assets/js/16.4cbae429.js"><link rel="prefetch" href="/assets/js/17.fb44865a.js"><link rel="prefetch" href="/assets/js/18.dcc1ae0c.js"><link rel="prefetch" href="/assets/js/19.ae5e2e37.js"><link rel="prefetch" href="/assets/js/2.5fd8c582.js"><link rel="prefetch" href="/assets/js/20.6af1bc69.js"><link rel="prefetch" href="/assets/js/21.30e5773d.js"><link rel="prefetch" href="/assets/js/22.08440b16.js"><link rel="prefetch" href="/assets/js/24.182265ac.js"><link rel="prefetch" href="/assets/js/25.1f791d79.js"><link rel="prefetch" href="/assets/js/26.1058b079.js"><link rel="prefetch" href="/assets/js/27.5e7b8cc2.js"><link rel="prefetch" href="/assets/js/28.80effe88.js"><link rel="prefetch" href="/assets/js/29.67fc64a2.js"><link rel="prefetch" href="/assets/js/3.97499cfa.js"><link rel="prefetch" href="/assets/js/30.38a72e58.js"><link rel="prefetch" href="/assets/js/31.8cfe579f.js"><link rel="prefetch" href="/assets/js/32.e73a79ec.js"><link rel="prefetch" href="/assets/js/33.6df3f59e.js"><link rel="prefetch" href="/assets/js/34.7fb1600b.js"><link rel="prefetch" href="/assets/js/5.c2d32e5b.js"><link rel="prefetch" href="/assets/js/6.40262a5d.js"><link rel="prefetch" href="/assets/js/7.fa918282.js"><link rel="prefetch" href="/assets/js/8.a881d4b4.js"><link rel="prefetch" href="/assets/js/9.739d7878.js">
     <link rel="stylesheet" href="/assets/css/0.styles.4b78aa60.css">
   </head>
   <body>
@@ -25,12 +25,29 @@
     <span class="token property">clear</span><span class="token punctuation">:</span> both<span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 </code></pre></div><h2 id="position"><a href="#position" aria-hidden="true" class="header-anchor">#</a> position</h2> <blockquote><p>用于设置页面上元素的位置,默认情况下所有元素都是静态元素（position：static）</p></blockquote> <p>除了静态元素，position还有下面几个值：</p> <ul><li>relative</li> <li>absolute</li> <li>fixed</li> <li>sticky</li></ul> <p>上面的定位会创建定位元素，定位元素会创建一个定位上下文，可以用：<code>top</code> <code>bottom</code> <code>left</code> <code>right</code> 来指定偏移量（只对定位元素有效）</p> <blockquote><p>relative
-相对定位元素，会为绝对定位创建定位上下文，本身也会创建定位上下文，可以使用偏移量从本身位置进行偏移，元素本身的位置任然在文档流中，不会影响其他元素布局</p></blockquote> <blockquote><p>absolute
-绝对定位元素，相对与另一个定位元素定位，</p></blockquote></div> <div class="page-edit"><!----> <!----></div> <div class="page-nav"><p class="inner"><span class="prev">
+相对定位元素，会为绝对定位的后代元素创建定位上下文，本身也会创建定位上下文，可以使用偏移量从本身位置进行偏移，元素本身的位置任然在文档流中，不会影响其他元素布局</p></blockquote> <blockquote><p>absolute
+绝对定位元素，相对与最近的非静态祖先元素定位，如果没有最近的祖先定位元素，则相对于视口定位，绝对定位元素会脱离文档流，</p></blockquote> <p>绝对定位元素具有拉伸性，下面同时设置top和bottom并设置为0，则元素会拉伸为包含容器高度，</p> <div class="language-css extra-class"><pre class="language-css"><code>  <span class="token selector">.s</span> <span class="token punctuation">{</span>
+     position：absolute<span class="token punctuation">;</span>
+     <span class="token property">top</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+     <span class="token property">bottom</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+   <span class="token punctuation">}</span>    
+</code></pre></div><p>同理，下面会拉伸为包含容器宽度</p> <div class="language-css extra-class"><pre class="language-css"><code>  <span class="token selector">.s</span> <span class="token punctuation">{</span>
+     position：absolute<span class="token punctuation">;</span>
+     <span class="token property">left</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+     <span class="token property">right</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+   <span class="token punctuation">}</span>
+</code></pre></div><div class="tip custom-block"><p class="custom-block-title">注意</p> <p>如果同时指定了top和bottom,则top获胜。
+如果同时指定了right和left，则left获胜</p></div> <blockquote><p>fixed
+固定定位元素，则相对于视口定位，不会随着页面滚动</p></blockquote> <blockquote><p>sticky
+粘性定位元素，相对元素和固定元素的混合,该元素被视为相对定位的元素，直到它到达某个滚动点，之后它被视为固定元素<span class="badge error top" data-v-432632e4>支持度不好</span></p></blockquote> <div class="language-css extra-class"><pre class="language-css"><code>  <span class="token selector">.s</span> <span class="token punctuation">{</span>
+     position：sticky<span class="token punctuation">;</span>
+     <span class="token property">top</span><span class="token punctuation">:</span> 20px<span class="token punctuation">;</span>
+   <span class="token punctuation">}</span>
+</code></pre></div><div class="tip custom-block"><p class="custom-block-title">注意</p> <p>粘性定位元素，必须要指定一个偏移值（top/left/right/bottom），否则不会起作用,行为与相对定位相同</p></div></div> <div class="page-edit"><!----> <!----></div> <div class="page-nav"><p class="inner"><span class="prev">
         ←
         <a href="/css/bfc.html" class="prev">
           css block相关
         </a></span> <!----></p></div> </div> <!----></div></div>
-    <script src="/assets/js/app.1c0f0785.js" defer></script><script src="/assets/js/21.3f671dd6.js" defer></script>
+    <script src="/assets/js/app.30259b31.js" defer></script><script src="/assets/js/23.c8569fcf.js" defer></script><script src="/assets/js/4.2274387a.js" defer></script>
   </body>
 </html>
